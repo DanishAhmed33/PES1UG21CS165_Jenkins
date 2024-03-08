@@ -31,10 +31,7 @@ pipeline {
     }
 
     post {
-        always {
-            // Display 'pipeline failed' in case of any errors
-            echo 'Pipeline completed'
-        }
+        
 
         failure {
             echo 'Pipeline failed'
