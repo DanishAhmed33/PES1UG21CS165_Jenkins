@@ -24,7 +24,7 @@ pipeline {
             steps {
                 script {
                     // Add deployment steps if needed
-                    echo 'deploy'
+                    echoss 'deploy'
                 }
             }
         }
